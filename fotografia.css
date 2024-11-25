@@ -2,9 +2,14 @@ body, nav, main {
     margin: 0;
     padding: 0;
     font-family: "open sans";
+    font-size: larger;
+  }
+
+  body {
+    background-color: rgba(132, 107, 122, 0.6);
   }
   .menu ul {
-    background-color: rgb(138, 34, 34);
+    background-color: rgba(80, 18, 55, 0.6);
     margin: 0;
     padding: 30px 0;
     list-style-type: none; /* tira estilo de lista*/
@@ -27,25 +32,50 @@ body, nav, main {
     justify-content: CENTER;
     background-color:#EDEAEA;
   }
-  #minha-imagem {
-    width: 200px;
-    border-radius: 50px;
-  }
   
   #titulo {
-    color:rgb(138, 34, 34) ;
+    color:rgba(80, 18, 55) ;
     font-size: 36px;
   }
-  #subtitulo {
-    font-size: 24px;
+
+  #HISTORIAS {
+    color: rgb(68, 13, 73);
+    text-align: center;
+    align-items: center;
+    justify-content: CENTER;
   }
-  #sobre {
-    padding: 50px;
-    max-width: 600px;
+
+  #CLIENTES {
+    color: rgb(68, 13, 73);
+    text-align: center;
+    align-items: center;
+    justify-content: CENTER;
+    padding: 30px;
   }
-  .rodape {
-    background-color: rgb(138, 34, 34)
+
+  #STREETPHOTOGRAPHY {
+    color: rgb(68, 13, 73);
+    text-align: center;
+    align-items: center;
+    justify-content: CENTER;
+    padding: 40px
   }
-  .rodape {
+
+  .rodape ul {
+    background-color: rgba(80, 18, 55);
     color: white;
+    margin: 0;
+    padding: 30px 0;
+    list-style-type: none; /* tira estilo de lista*/
+    text-align: center;
   }
+
+  #CONTATO {
+      background-color: rgba(80, 18, 55);
+      color: white;
+      margin: 0;
+      padding: 20px 0;
+      list-style-type: none; /* tira estilo de lista*/
+      text-align: center;
+    }
+

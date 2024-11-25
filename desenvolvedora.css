@@ -1,0 +1,149 @@
+
+body {
+    background-image: url(Imagens/backgroundDV.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Faz o body ocupar toda a altura da tela */
+    top: 0;
+    left: 0;
+    display: block;
+  }
+body, nav, main {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    background-color:rgba(80, 18, 55, 0.7);
+    padding: 30px 0;
+    text-align: end; /* coloca os itens no final da pagina */
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* tira estilo de lista */
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.principal {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(242, 234, 234, 0.8);
+}
+
+#sobre {
+    padding: 50px;
+    max-width: 600px;
+}
+
+.titulo {
+   color: rgba(80, 18, 55); 
+   font-size: 36px;
+   font-weight: 700;
+}
+
+.subtitulo {
+    color: rgba(80, 18, 55);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.primeiro-paragrafo {
+    font-size: 20px;
+    line-height: 22.4px;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Formacao */
+
+#formacao {
+    background-color:  rgba(80, 18, 55, 0.8);
+    padding: 30px 80px;
+    color: #EDEAEA;
+}
+
+.titulo_formacao {
+    color:  rgb(242, 238, 240);
+    font-size: 30px;
+}
+
+.conteudo_formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.info_formacao {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Portfolio */
+
+#portfolio {
+    background-color: rgb(242, 234, 234, 0.8);
+    padding: 30px 60px;
+    font-size: 25px;
+}
+
+.conteudo_portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.info_portfolio {
+    width: 100%;
+    max-width: 600px;
+}
+
+.info_portfolio h3 {
+    color: #555;
+    font-size: 18px;
+}
+
+#rodapé {
+    background-color: rgba(80, 18, 55, 0.7);
+    padding: 38px;
+    color: white;
+    font-size: 20px;
+}
+
+.rodape_item span a {
+    color: white;
+}
+
+.rodape_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.rodape_icon {
+    width: 25px;
+    margin-right: 10px;
+}
