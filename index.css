@@ -1,0 +1,65 @@
+body {
+    background-image: url(images/background3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Faz o body ocupar toda a altura da tela */
+    top: 0;
+    left: 0;
+  }
+
+.bemVindo {
+  font-weight: 300px;
+  font-style: normal;
+  text-align: center;
+  align-items: center;
+  justify-content: CENTER;
+  background-color:rgba(138, 83, 116, 0.6);
+  color:aliceblue;
+  font-size: 30px;
+}
+
+#fotoPrincipal {
+  margin-left: auto; /* Centralizar horizontalmente */
+  margin-right: auto;
+  max-width: 300px;
+  border-radius: 50%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.botoes {
+  margin-left: auto; /* Centralizar horizontalmente */
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: none ;
+  padding-top: 40px;
+}
+
+.botoes a {
+  font-style: none
+}
+
+#abaFotografia {
+  background-color:rgba(138, 83, 116, 0.6);
+  color: aliceblue;
+  border-radius: 15%;
+  padding: 1%;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#abaDesenvolvedora {
+  background-color:rgba(138, 83, 116, 0.6);
+  color: aliceblue;
+  border-radius: 15%;
+  padding: 1%;
+  font-size: 30px;
+  cursor: pointer;
+}

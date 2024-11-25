@@ -1,0 +1,51 @@
+body, nav, main {
+    margin: 0;
+    padding: 0;
+    font-family: "open sans";
+  }
+  .menu ul {
+    background-color: rgb(138, 34, 34);
+    margin: 0;
+    padding: 30px 0;
+    list-style-type: none; /* tira estilo de lista*/
+    text-align: end; /* coloca os itens no fim da pagina*/
+  }
+  .menu ul li{
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .principal {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: CENTER;
+    background-color:#EDEAEA;
+  }
+  #minha-imagem {
+    width: 200px;
+    border-radius: 50px;
+  }
+  
+  #titulo {
+    color:rgb(138, 34, 34) ;
+    font-size: 36px;
+  }
+  #subtitulo {
+    font-size: 24px;
+  }
+  #sobre {
+    padding: 50px;
+    max-width: 600px;
+  }
+  .rodape {
+    background-color: rgb(138, 34, 34)
+  }
+  .rodape {
+    color: white;
+  }
