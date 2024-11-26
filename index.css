@@ -10,26 +10,30 @@ body {
     left: 0;
   }
 
+  @media only screen and (max-device-width: 900px) {
+    body { width:600px; }
+    }
+
 .bemVindo {
-  font-weight: 80%;
+  font-weight: 100%;
   font-style: normal;
   text-align: center;
   align-items: center;
   justify-content: CENTER;
   background-color:rgba(138, 83, 116, 0.6);
   color:aliceblue;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #fotoPrincipal {
   margin-left: auto; /* Centralizar horizontalmente */
   margin-right: auto;
-  max-width: 300px;
+  max-width: 30%;
   border-radius: 50%;
   display: block;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .botoes {
