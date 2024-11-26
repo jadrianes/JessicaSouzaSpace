@@ -28,7 +28,7 @@ body {
 #fotoPrincipal {
   margin-left: auto; /* Centralizar horizontalmente */
   margin-right: auto;
-  max-width: 30%;
+  max-width: 15%;
   border-radius: 50%;
   display: block;
   justify-content: center;
